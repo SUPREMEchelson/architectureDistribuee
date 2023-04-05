@@ -2,7 +2,7 @@
 ![bigDataimage](https://user-images.githubusercontent.com/43779857/202323288-ec72d648-30ab-425e-b9b4-aadce2242500.jpg)
 
 # Description
-La recherche d'emploi et de logement est l'une des préocupations principales des francais. L'objectif de ce projet est de voir si une y'a une corrélation entre les bassins à fort concentration d'emploi et le loyer des logements. 
+La recherche d'emploi et de logement est l'une des préocupations principales des francais. L'objectif de ce projet est de voir si il y'a une corrélation entre les bassins à fort concentration d'emploi et le loyer des logements. 
 
 # Architecture
 
