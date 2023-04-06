@@ -32,6 +32,10 @@ Lancer jupyter à l'aide du localhost 8080
 
 La visualisation des données est faites avec l'application microsoft powerBi
 
+# Gestion de projet
+
+https://trello.com/b/GmYVkOpJ/projetarchitecturedistribuee
+
 # Auteur
 
 Youssef
