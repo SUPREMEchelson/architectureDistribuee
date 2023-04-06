@@ -1,29 +1,25 @@
-from kafka import KafkaProducer
-from datetime import datetime
-from json import dumps
 import pandas as pd
-from time import sleep
-import numpy as np
+
+data = pd.read_csv('/ArchitecDist_TP1/data/emploi.csv')
+
+from kafka import KafkaProducer
 import json
 
-import csv
-# define the Kafka producer
-producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
+producer = KafkaProducer(
+    bootstrap_servers='localhost:9092',  # Changez cette ligne pour utiliser l'adresse correcte
+    value_serializer=lambda v: json.dumps(v).encode('utf-8')
+)
 
-# def send_csv_to_kafka():
-#     with open('./PoleEmploiDonner.csv') as file:
-#         csv_reader = csv.reader(file, delimiter=';')
-#         next(csv_reader, None)
-#         for row in (csv_reader):
+topic = 'salarie'
 
-#             #col1 = row[0]
-#             # col2 = row[1]
-#             message = {'col1': col1}
-#             producer.send('stream', value=message)
-#             # print("Churn: ", row)
-#             # print(message)
-#             sleep(5)
+for index, row in data.iterrows():
+    # Convertir la ligne en dictionnaire
+    row_dict = row.to_dict()
+    
+    # Envoyer la ligne au topic Kafka
+    producer.send(topic, row_dict)
 
-# send_csv_to_kafka()
-producer.send("stream",json.dumps({"year":"caps"}).encode("utf-8"))
+# Attendre que toutes les messages soient envoyés
 producer.flush()
+
+
