@@ -35,7 +35,7 @@ La visualisation des données est faites avec l'application microsoft powerBi
 # Gestion de projet
 https://trello.com/invite/b/GmYVkOpJ/ATTI3805a8c69405feb8add054cd779c13aa37D9F0A6/projetarchitecturedistribuee
 
-#video
+# video
 
 https://auvencecom.sharepoint.com/teams/GROUPE-perso624/_layouts/15/embed.aspx?UniqueId=49c26acf-3c3b-4649-a88b-c96ce8a72304&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
