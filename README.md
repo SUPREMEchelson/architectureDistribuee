@@ -44,10 +44,10 @@ https://trello.com/invite/b/GmYVkOpJ/ATTI3805a8c69405feb8add054cd779c13aa37D9F0A
 
 Après avoir exécuter le producer
 Ouvrez un cmd
-faites afin d'afficher les machines ``` docker ps```
-puis rentrez dans la machines kafka ``` docker exec 317 ```
-pour regarder dans la liste des topics crée ``` kafka-topics.sh --bootstrap-server=localhost:9092 --list```
-pour consomer le topic kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic hello_topic --from-beginning
+  faites afin d'afficher les machines ``` docker ps```  
+  puis rentrez dans la machines kafka ``` docker exec 317 ```  
+  pour regarder dans la liste des topics crée ``` kafka-topics.sh --bootstrap-server=localhost:9092 --list```  
+  pour consomer le topic kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic hello_topic --from-beginning  
 
 exemple consumer 
 ![apiPoleEmloiDonner](https://user-images.githubusercontent.com/43779857/230797465-88e04acf-3b08-48be-8f1d-ae8d0e5336d3.png)
