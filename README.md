@@ -26,7 +26,8 @@ git clone https://github.com/SUPREMEchelson/architectureDistribuee.git
 positionner votre cmd à l'emplacement du fichier .yml puis faite docker-compose up
 
 # Traitement Spark
-Lancer jupyter à l'aide du localhost 8080 
+Lancer jupyter à l'aide du 
+```localhost 8080```
 
 # Visualisation
 
