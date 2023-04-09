@@ -38,7 +38,7 @@ https://trello.com/invite/b/GmYVkOpJ/ATTI3805a8c69405feb8add054cd779c13aa37D9F0A
 
 # video
 
-[Desmonstration kafka](https://auvencecom.sharepoint.com/teams/GROUPE-perso624/_layouts/15/embed.aspx?UniqueId=49c26acf-3c3b-4649-a88b-c96ce8
+[Desmonstration kafka] (https://auvencecom.sharepoint.com/teams/GROUPE-perso624/_layouts/15/embed.aspx?UniqueId=49c26acf-3c3b-4649-a88b-c96ce8
 
 
 # Auteur
