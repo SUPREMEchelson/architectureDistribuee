@@ -23,7 +23,7 @@ récupérer le projet :
 git clone https://github.com/SUPREMEchelson/architectureDistribuee.git
 
 # Dockerisation
-positionner votre cmd à l'emplacement du fichier .yml puis faite docker-compose up
+positionner votre cmd à l'emplacement du fichier ```docker-compose.yml``` puis faite ```docker-compose up```
 
 # Traitement Spark
 Lancer jupyter à l'aide du 
